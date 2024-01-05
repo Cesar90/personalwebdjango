@@ -1,11 +1,7 @@
-<h1>My personal web</h1>
-<ul>
-    <li><a href="/">Front Page</a></li>
-    <li><a href="/about-me/">About me</a></li>
-    <li><a href="/porfolio/">Porfolio</a></li>
-    <li><a href="/contact/">Contanct</a></li>
-</ul>
+{% extends "core/base.html" %}
+{% block title %} About {% endblock %}
+{% block content %}
+    <h2>About me</h2>
 
-<h2>About me</h2>
-
-<p>This is the about me page</p>
+    <p>This is the about me page</p>
+{% endblock %}
