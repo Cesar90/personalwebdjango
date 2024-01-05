@@ -1,7 +1,10 @@
-{% extends "core/base.html" %}
-{% block title %} Front Page {% endblock %}
-{% block content %}
-    <h2>Front page</h2>
+{% extends 'core/base.html' %}
 
-    <p>This is the front page</p>
+{% block title %}Portada{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/home-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>César Cordero</h1>
+<span class="subheading">Web Developer</span>
 {% endblock %}

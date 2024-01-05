@@ -1,7 +1,21 @@
-{% extends "core/base.html" %}
-{% block title %} Contact {% endblock %}
-{% block content %}
-    <h2>Contact</h2>
+{% extends 'core/base.html' %}
 
-    <p>This is the contact page</p>
+{% block title %}Contacto{% endblock %}
+
+{% block background %}{% load static %}{% static 'core/img/contact-bg.jpg' %}{% endblock %}
+
+{% block headers %}
+<h1>Contacto</h1>
+<span class="subheading"></span>
+{% endblock %}
+
+{% block content %}
+<div class="row"> 
+    <div class="col-lg-8 col-md-10 mx-auto">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>
+        <br>
+        <p><b>Phone:</b> +505 76995333</p>
+        {% comment %} <p><b>Pay:</b> 60€/h (precio base)</p> {% endcomment %}
+    </div>
+</div>
 {% endblock %}
