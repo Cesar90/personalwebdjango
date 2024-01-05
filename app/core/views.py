@@ -25,13 +25,6 @@ def about(request):
     # """)
     return render(request, "core/about.html")
 
-def porfolio(request):
-    # return HttpResponse(html_base + """
-    #     <h2>Porfolio</h2>
-    #     <p>Some of my projects</p>
-    # """)
-    return render(request, "core/porfolio.html")
-
 def contact(request):
     # return HttpResponse(html_base + """
     #     <h2>Contanct</h2>
