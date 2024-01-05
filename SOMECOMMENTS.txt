@@ -1,0 +1,5 @@
+Create ENV => pipenv --python 3
+Create bubble => pipenv shell
+Install Django => pipenv install Django==2.2.5
+Install Pillow => pipenv install Pillow==6.2.1
+Install django-ckeditor => pipenv install django-ckeditor==5.4.0
