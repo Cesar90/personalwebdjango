@@ -1,5 +1,15 @@
+Create virtual env => pipenv --python 3.9
+Where is env install => pipenv --venv
+Where is python intepret install => pipenv --py
+Run python inside of env => pipenv run python
+Show env packages pipenv graph
+Show run packages with list => pipenv run pip list
+Uninstall package => pipenv uninstall numpy or pipenv run pip uninstall numpy
+Remove pipenv => pipenv --rm
 Create ENV => pipenv --python 3
 Create bubble => pipenv shell
 Install Django => pipenv install Django==2.2.5
 Install Pillow => pipenv install Pillow==6.2.1
 Install django-ckeditor => pipenv install django-ckeditor==5.4.0
+To load static or css, javascript and images create a static folder inside of 
+app and create folder with name of app finally put the css, javascript etc there
