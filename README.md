@@ -17,3 +17,7 @@ docker-compose run --rm app sh -c "pip list"
 # Create core app
 
 docker-compose run --rm app sh -c "python manage.py startapp core"
+
+# Create portfolio app
+
+docker-compose run --rm app sh -c "python manage.py startapp portfolio"
